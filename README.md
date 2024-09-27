@@ -28,7 +28,26 @@
     $ mvn spring-boot:run
     ```
 
-3. Run SvelteKit web frontend 
+3. Create `.env` file in `\frontend`
+
+    ```
+    # Auth0 SPA Domain
+    PUBLIC_AUTH0DOMAIN=
+
+    # Auth0 SPA CilentId
+    PUBLIC_AUTH0CILENTID=
+
+    # Auth0 M2M API CilentId
+    PUBLIC_AUTH0CILENTIDBACKEND=
+
+    # Auth0 M2M API Cilent Secret
+    PUBLIC_AUTH0CILENTSECRETBACKEND=
+
+    # Auth0 API Audience
+    PUBLIC_AUTH0AUDIENCEBACKEND=
+    ```
+
+4. Run SvelteKit web frontend 
 
     In `\frontend` folder
     ```bash
@@ -39,4 +58,4 @@
     npm run dev
     ```
 
-4. Open to [localhost:5173](http://localhost:5173) for play Tic-Tac-Toe
+5. Open to [localhost:5173](http://localhost:5173) for play Tic-Tac-Toe
